@@ -1,5 +1,5 @@
 # Raw Dog Food Calculator
-Live preview: rawfood-calculator.netlify.app
+Live preview: https://rawfood-calculator.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/51120532/117039082-08494180-ad11-11eb-9f21-c75fe844589a.png)
 
