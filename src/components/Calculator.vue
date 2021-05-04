@@ -19,7 +19,7 @@
 
         <v-form ref="form" v-model="valid" lazy-validation>
             <v-text-field v-model="field" clearable rounded filled dense required
-            :suffix="suffix" :rules="inputRules" type="number" label="Dog weight" :min="min" :max="max" > 
+            :suffix="suffix" :rules="inputRules" type="number" label="Dog weight"> 
             </v-text-field>
                             
             <v-select v-model="select" filled dense rounded clearable required
@@ -47,7 +47,7 @@
             
         <v-card class="rounded-pill"
         outlined style="background: transparent" hover>
-            <v-card-text>
+            <v-card-text class="align-center">
             Meat: <strong class="amber--text"> {{ meat || 0 }} </strong> {{currentUnit}}
             </v-card-text>    
         </v-card>
@@ -132,11 +132,6 @@
         submit () {
         this.$refs.form.validate()
   },
-    
-        
-        
-  
-  
   }}
         
 </script>
